@@ -16,7 +16,7 @@ Example 1 shows how to implement multi-tasking.
 
 Example 2 is a benchmarking script for comparisons between the scheduling capabilities of mx_task, tictoc, and robotics.Rate.
 
---- Usage ---
+# Usage
 1. First define a task with a function and affix it to a new mx_task instance. Define the desired task period at the second input. 
 
 myTask = mx_task(@()myFunc, 1/10);
@@ -35,10 +35,10 @@ while (time_now <= time_start + 10) % run tasks for 10 seconds.
   myTask.run(time_now);
 end
 
---- Installation ---
-Run the install script.
+# Installation
+Move to the mx_task directory and run the install script.
 
 
---- Future plans ---
+# Future plans
 Windows support.
 
