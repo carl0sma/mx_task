@@ -2,14 +2,18 @@
 A simple to use MATLAB library for "real-time" multi-tasking.
 
 Multitasking with tic-toc and robotics.Rate require full CPU usage which is sometimes undesired. 
+
 The new mx_task class allows users to achieve an almost real-time multitasking functionality in MATLAB, whilst not requiring full CPU usage.
 
 --- 
 Currently supports Linux only.
+
 Functionality verified on a 18.04LTS machine with MATLAB R2016b and R2019a.
 
 Example 0 shows the basic functionalities of the mx_task library.
+
 Example 1 shows how to implement multi-tasking.
+
 Example 2 is a benchmarking script for comparisons between the scheduling capabilities of mx_task, tictoc, and robotics.Rate.
 
 --- Usage ---
