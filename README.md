@@ -39,7 +39,7 @@ time_now = time_start;
 
 while (time_now <= time_start + 10) % run tasks for 10 seconds.
 
-  time_now = mx_sleep(1/1000000);
+  time_now = mx_sleep(1/1000000); % 1MHz scheduler frequency. Set to mx_sleep(0) for an enhanced real-time behaviour (at 100% CPU though).
   
   myTask.run(time_now);
   
