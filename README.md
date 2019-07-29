@@ -6,7 +6,7 @@ Multitasking with tic-toc and robotics.Rate require full CPU usage which is some
 The new mx_task class allows users to achieve an almost real-time multitasking functionality in MATLAB, whilst not requiring full CPU usage.
 
 --- 
-Currently supports Linux only.
+Supports Linux and Windows. Linux systems generally have a better RT behaviour.
 
 Functionality verified on a 18.04LTS machine with MATLAB R2016b and R2019a.
 
@@ -49,7 +49,4 @@ end
 # Installation
 Move to the mx_task directory and run the install script.
 
-
-# Future plans
-Windows support.
 
