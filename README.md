@@ -8,7 +8,9 @@ The new mx_task class allows users to achieve an almost real-time multitasking f
 --- 
 Supports Linux and Windows. Linux systems generally have a better RT behaviour.
 
-Functionality verified on a 18.04LTS machine with MATLAB R2016b and R2019a.
+Functionality verified on:
+- a 18.04LTS machine with MATLAB R2016b and R2019a,
+- a Windows 10 machine with MATLAB R2018b.
 
 Example 0 shows the basic functionalities of the mx_task library.
 
@@ -48,5 +50,4 @@ end
 
 # Installation
 Move to the mx_task directory and run the install script.
-
 
